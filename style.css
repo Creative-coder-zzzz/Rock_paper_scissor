@@ -1,0 +1,99 @@
+body{
+    background-image: url(https://images.pexels.com/photos/159393/gamepad-video-game-controller-game-controller-controller-159393.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    backdrop-filter: brightness(0.5);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+
+}
+.navbar{
+    position: absolute;
+    background-color: rgba(118, 131, 139, 0.2);
+    backdrop-filter: blur(9);
+    color: white;
+    height: 50px;
+    width: 100%;
+    text-align: center;
+}
+.logo{
+    padding:10px;
+    font-size: 2rem;
+}
+
+.choices{
+    width: 500px;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 200px;
+    height: 200px;
+    background-size: cover;
+    border-radius: 100px;
+    background-color: rgba(118, 131, 139, 0.2);
+    backdrop-filter: blur(5);
+    align-items: center;
+    
+}
+.choices{
+    position: absolute;
+    align-items: center;
+    /* background-color: rgb(70, 117, 158, .2); */
+    margin: 194px 23px 5px 0px;
+    height: 246px;
+    width: 758px;
+    
+}
+.wrapper{
+    display: flex;
+    justify-content: center;
+    gap:2rem;
+}
+#paper:hover{
+    border:3px solid rgb(8, 94, 255) ;
+    border-radius: 100px;
+}
+img:hover{
+    border:3px solid white ;
+    border-radius: 100px;
+}
+#rock{
+    cursor: pointer;
+    
+}
+#paper{
+    cursor: pointer;
+}
+#scissor{
+    cursor: pointer;
+}
+.wrap{
+    display: flex;
+    position: relative;
+    font-size: 2rem;
+    color: beige;
+    justify-content: space-around;
+    margin-top: 500px;
+
+}
+.move{
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+button{
+    background-color: rgb(32, 42, 65);
+    color: white;
+    padding: 20px;
+    border: 0px;
+cursor: pointer;
+    border-radius: 20px;
+}
+p{
+    position: absolute;
+    color: white;
+    font-size: 2rem;
+    text-align: center;
+    margin-left:20px;
+}
